@@ -2,53 +2,27 @@
 
 ## Deskripsi Soal ##
 
-Buatlah simulasi sederhana dari aplikasi Payroll dimana data absensi karyawan dan data karyawan ditentukan sendiri dan disimpan kedalam struktur data (array statis maupun list).
-
-Aplikasi bersifat batch sehingga tidak diperlukan interverensi dari user.
-
-Contoh data karyawan (comma separated values)
-
-```
-nik,nama,gaji,tunjangan,bonus,denda // column header, tidak disimpan
-101,paijo,900,200,150,75
-102,lulu,875,200,100,100
-103,lala,1000,350,200,125
-```
-
-Contoh data absensi
+Terdapat 5 mahasiswa, mereka mendapatkan sebuah tugas menulis cerpen pada buku. setiap mahasiswa memiliki perbedaan dalam hal penulisan dan jumlah kata yang dituliskan setiap halamannya (misalkan 1 halaman di habiskan 100 kata untuk mahasiswa 1) ketentuan jumlah kata perhalaman adalah 100<kata<500. Jumlah halaman untuk setiap buku yang diberikan adalah 30 halaman dan bersifat tetap artinya tidak berubah jumlah halamannya. buku yang di berikan memiliki beberapa karakteristik seperti kata per halaman. output dari kasus di atas adalah  jumlah kata dari setiap mahasiswa yang mereka tuliskan
+tugas kalian adalah
+1. identifikasi class, object, method dan attribut pada kasus di atas.
+2. implementasi program dari kasus di atas.
 
 ```
-nik,tanggal,jam_masuk,jam_pulang // column header, tidak disimpan
-101,2016-01-15,08:00,17:00
-101,2016-01-16,08:00,18:30
-102,2016-01-15,08:00,15:00
-103,2016-01-15,08:00,17:00
-```
-
-Proses bisnis dari program ini
-
-* Asumsikan jam masuk adalah jam 08.00, jika jam masuk melebihi jam 08.00, maka dikenakan denda dikalikan berapa jam dia terlambat.
-
-* Asumsikan jam pulang adalah jam 17.00, jika jam pulang melebihi jam 17.00, maka diberikan bonus dikalikan berapa jam dia lembur, jika pulang lebih dahulu maka dikenakan denda.
-
-* Hari Sabtu dan Minggu adalah hari libur, tidak diberlakukan penghitungan bonus dan denda.
-
-Contoh data hasil pengolahan total gaji
+jumlah_mahasiswa // column header, tidak disimpan
+nim, nama_mahasiswa, jumlah_kata_perhalaman // column header, tidak disimpan
+101,paijo,200
+101,paijo,900
+102,lulu,200
+103,lala,350
 
 ```
-nik,nama,gaji,tunjangan,bonus,denda,total_gaji
-101,paijo,900,200,150,75,1100
-102,lulu,875,200,100,100,875
-103,lala,1000,350,200,125,1350
-```
-
 ## Prosedur Pengumpulan ##
 
 * Fork dahulu repository ini ke akun Github masing-masing.
-* Lakukan clone dari repo hasil forking, lalu open project, lakukan coding di Netbeans sesuai spesifikasi tugas yang telah ditentukan.
+* Lakukan clone dari repo hasil forking, lakukan coding di Netbeans sesuai spesifikasi tugas yang telah ditentukan.
 * Simpan screenshoot dari hasil run program dalam folder `ss/`
 * Edit dahulu file PERNYATAAN.md, isi sesuai biodata.
 * Lakukan commit dan push TIAP KALI melakukan pekerjaan SEBELUM deadline berakhir, jika hanya melakukan commit dan push hanya sekali dan perubahan yang sangat besar, akan memengaruhi penilaian.
-* Deadline 24 Pebruari 2016 jam 00.01, jika ada salah satu commit yang melampaui tanggal deadline, maka tidak diikutkan dalam penilaian, alias mendapat 0.
+* Deadline 2 Maret 2016 jam 00.01, jika ada salah satu commit yang melampaui tanggal deadline, maka tidak diikutkan dalam penilaian, alias mendapat 0.
 * Setelah menyelesaikan tugas, maka lakukan **Pull Request** untuk dilakukan penilaian. Setelah mengirim pull request, Anda tidak diperkenankan mengubah lagi isi dari repository.
 * **Tidak ada toleransi duplikasi**, jika terdeteksi maka akan mendapat nilai 0 bagi semua yang terlibat.
