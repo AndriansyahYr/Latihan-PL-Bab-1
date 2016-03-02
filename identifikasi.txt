@@ -1,0 +1,7 @@
+Identifikasi soal 
+
+Class   : Mahasiswa 
+Object  : Setiap mahasiswa; mahasiswa 1, mahasiswa 2 dst sampai mahasiswa 5.
+Atribut : Nama, NIM, kaHal, Total
+Method  : buku
+                                                                                                                                                                                                                                                                                                                                                                                                                                                				~~~~~~~~~~~~~~~~~~~~
